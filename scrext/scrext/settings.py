@@ -13,5 +13,8 @@ BOT_NAME = 'scrext'
 SPIDER_MODULES = ['scrext.spiders']
 NEWSPIDER_MODULE = 'scrext.spiders'
 
+WNLOAD_DELAY = 3
+ROBOTSTXT_OBEY = True 
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'scrext (+http://www.yourdomain.com)'
