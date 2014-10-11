@@ -13,7 +13,8 @@ class ScrextItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
-class NewsItem(Item):
-    title = Field()
-    body = Field()
-    time = Field()
+class NewsItem(scrapy.Item):
+    title = scrapy.Field()
+    body = scrapy.Field()
+    time = scrapy.Field()
+
